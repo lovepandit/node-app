@@ -1,11 +1,11 @@
 const { saveCampaign, updateCampaign } = require('./../services/campaignService');
 
 exports.baseContextRoute = (req, res) => {
-    res.send("/ API invoked.jenkins freestyle job ");
+    res.send("/ API invoked.");
 }
 
 exports.getCampaignRoute = (req, res) => {
-    res.send("GET /campaign API invoked.jenkins freestyle job");
+    res.send("GET /campaign API invoked.");
 }
 
 exports.saveCampaignRoute = (req, res) => {
